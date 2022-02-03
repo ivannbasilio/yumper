@@ -1,0 +1,326 @@
+/* ROOT FONT STYLES */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+  font-family: 'Montserrat', serif;
+  line-height: 1.5;
+}
+
+.file {
+	background: #F8F8FF;
+	padding: 16px;
+	border-radius: 12px;
+}
+
+.file .file__header {
+	position: relative;
+	margin-bottom: 16px;
+}
+
+.file .file_header .file__timestamp {
+	position: absolute;
+	right: 0;
+	background: red;
+}
+
+.file__actions{
+	text-align: right;
+}
+
+.file__actions:nth-child(1) {
+	margin-left: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	margin: 0;
+}
+
+h5 {
+	color: #1D1D35;
+}
+
+/*INPUT*/
+
+input {
+	width: 100%;
+	padding: 15px 13px 15px 13px;
+	border: 0;
+	background: #EEEEEE;
+	border-radius: 10px;
+}
+
+/*ALERT*/
+
+.alert {
+	background: #43d1a5;
+	color: #fff;
+	color: #fff;
+	padding: 12px;
+	border-radius: 12px;
+}
+
+.line {
+	width: 40px;
+	height: 3px;
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 2px;
+	margin-right: 12px;
+	margin-left: 12px;
+}
+
+.line__dark {
+	background: #1D1D35;
+}
+
+.line__white {
+	background: #FFFFFF;
+}
+
+.color__primary {
+	color: #A657FF;
+}
+
+.color__text {
+	color: #1D1D35;
+}
+
+.color__subtext {
+	color: rgba(29,29,53,0.8);
+}
+
+.color__white {
+	color: #FFFFFF;
+}
+
+.block {
+	display: block !important;
+}
+
+.center {
+	text-align: center;
+}
+
+.home-menu {
+	margin: 0;
+}
+
+.home-menu li {
+	display: inline-block;
+	padding: 8px;
+	margin-left: 8px;
+	margin-right: 8px;
+	border-bottom: 3px solid transparent;
+	transition: 0.3s linear;
+}
+
+.home-menu li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.home-menu li:hover {
+	border-bottom: 2px solid #FFFFFF;
+	color: #97CF6E;
+	transition: 0.3s linear;
+}
+
+.home-menu  li:last-child:after:hover{
+  border-bottom: 3px solid transparent;
+}
+
+.divider {
+	width: 100%;
+	height: 1px;
+	background: #eee;
+}
+
+.user {
+	margin-top: 32px;
+	border-radius: 8px;
+}
+
+.attachment {
+	background: #eee;
+	border-radius: 8px;
+}
+
+.attachment__info {
+	transform: translateX(16px);
+}
+
+.attachment__icon {
+	width: 32px;
+	height: 32px;
+	transform: translateY(25%);
+}
+
+.block {
+	margin: 0;
+	width: 100%;
+	display: inline-block;
+}
+
+.attachment__icon button {
+	background: transparent;
+}
+
+.store__image {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.circular-image {
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.circular-image__large {
+	width: 150px;
+	height: 150px;
+}
+
+.image-profile-wrapper {
+	position: relative;
+}
+
+.image-profile-wrapper button {
+	position: absolute;
+	right: 100px;
+	bottom: 10px;
+}
+
+.aling-right {
+	text-align: right;
+}
+
+.send-wrapper {
+	position: absolute;
+	bottom: 32px;
+	text-align: center;
+}
+
+.send-wrapper button {
+	transform: translateX(80%);
+}
+
+/* PLACEHOLDER */
+
+.placeholder-image {
+	border-radius: 50%;
+	background: #eee;
+}
+
+.placeholder-image__16 {
+	width: 16px;
+	height: 16px;
+}
+
+.placeholder-image__32 {
+	width: 32px;
+	height: 16px;
+}
+
+.placeholder-image__32 {
+	width: 32px;
+	height: 32px;
+}
+
+.placeholder-image__64 {
+	width: 64px;
+	height: 64px;
+}
+
+.placeholder-title {
+	border-radius: 8%;
+	background: #eee;
+}
+
+.placeholder-title {
+	border-radius: 8%;
+	background: #eee;
+}
+
+.placeholder-button {
+	width: 35px;
+	height: 35px;
+	border-radius: 8%;
+	background: #eee;
+}
+
+.placeholder {
+	border-radius: 8%;
+	background: #eee;
+}
+
+.blink {
+	animation: blink 2s linear infinite;
+}
+
+@keyframes blink {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: .5;
+	}
+	100% {
+		opacity: .1;
+	}
+}
+
+.mobile-side-menu-wrapper {
+	width: 70%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background: #fff;
+	display: none;
+}
+
+.mobile-side-menu-wrapper 
+.mobile-side-menu
+ul {
+	padding: 0;
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.mobile-side-menu-wrapper 
+.mobile-side-menu
+ul li {
+	list-style: none;
+	padding: 10px;
+}
+
+.mobile-side-menu-wrapper 
+.mobile-side-menu
+ul 
+li
+a {
+	text-decoration: none;
+	color: #1D1D35;
+}
+
+.responsive-image {
+	max-width: 100%;
+	display:block; 
+	height: auto;
+}
+

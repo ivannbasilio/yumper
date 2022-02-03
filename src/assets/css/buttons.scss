@@ -1,0 +1,85 @@
+@import 'variables';
+
+button {
+	border: none;
+	outline: none;
+}
+
+button i {
+	display: inline-block !important;
+	vertical-align: middle;
+	margin-left: 8px;
+}
+
+.btn-regular {
+	padding: 12px 32px 12px 32px;
+	border-radius: 8px;
+}
+
+.btn-color__primary {
+	color: #FFFFFF;
+	background: $primary;
+	transition: .2s linear;
+}
+
+.btn-color__primary:hover {
+	background: darken($primary, 15%);
+	transition: .3s linear;
+}
+
+.btn-color__accent {
+	color: #FFFFFF;
+	background: $accent;
+	transition: .3s linear;
+}
+
+.btn-color__accent:hover {
+	background: darken($accent, 15%);
+	transition: .2s linear;
+}
+
+.btn-color__secondary {
+	color: #FFFFFF;
+	background: $secondary;
+	transition: .3s linear;
+}
+
+.btn-color__secondary:hover {
+	background: darken($secondary, 15%);
+	transition: .2s linear;
+}
+
+.btn-color__white {
+	background: #FFFFFF;
+	transition: .3s linear;
+}
+
+.btn-color__white:hover {
+	background: #F3EED9;
+	transition: .2s linear;
+}
+
+.btn-circle {
+	vertical-align: middle;
+	width: 48px;
+	height: 48px;
+	border: none;
+	border-radius: 50%;
+	text-align: center;
+	transition: 0.3s linear;
+}
+
+.btn-circle__small {
+	width: 36px;
+	height: 36px;
+}
+
+.btn-circle i {
+	margin: 0 auto;
+}
+
+.btn-upload {
+	margin-top: 13px; 
+	margin-right: 16px;
+	background: transparent;
+}

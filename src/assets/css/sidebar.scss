@@ -1,0 +1,35 @@
+@import 'variables';
+
+.sidebar {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+}
+
+.sidebar ul {
+	margin-right: 16px;
+	padding: 0;
+    list-style-type: none;
+}
+
+.sidebar ul li {
+	width: auto;
+	height: 20px;
+	margin-left: 0;
+	list-style: none;
+	display: inline-block;
+	margin-top: 16px;
+	padding: 0px 8px 8px 25px;
+}
+
+.sidebar ul li a {
+	color: $text-secondary;
+	transition: .2s linear;
+}
+
+.sidebar ul li a:hover {
+	color: $primary;
+	transition: .3s linear;
+}

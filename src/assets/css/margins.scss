@@ -1,0 +1,21 @@
+@import 'variables';
+
+.margin-top__4 {
+	margin-top: $margin-base;
+}
+
+.margin-top__8 {
+	margin-top: $margin-base * 2;
+}
+
+.margin-top__16 {
+	margin-top: $margin-base * 4;
+}
+
+.margin-top__32 {
+	margin-top: $margin-base * 8;
+}
+
+.margin-top__64 {
+	margin-top: $margin-base * 16;
+}

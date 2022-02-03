@@ -1,0 +1,17 @@
+@import 'variables';
+
+.text-color__primary {
+	color: $primary;
+}
+
+.text-color {
+	color: $text;
+}
+
+.text-color__subtext {
+	color: $secondary;
+}
+
+.text-color__white {
+	color: $white;
+}

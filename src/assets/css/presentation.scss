@@ -1,0 +1,75 @@
+@import 'variables';
+
+.home-wrapper,
+.how-work-wrapper,
+.benefits-wrapper {
+	width: 100%;
+	height: 100vh;
+}
+
+@media only screen and (min-width: 45em) {  /* 720px */ 
+	.home-wrapper,
+	.how-work-wrapper,
+	.benefits-wrapper {
+		height: auto;
+	}
+
+	.footer {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+}
+
+.home-wrapper {
+	background: $primary;
+	height: 100vh;
+}
+
+.how-work-wrapper {
+	background: #FFFFFF;
+	height: 100vh;
+}
+
+.benefits-wrapper,
+.footer {
+	background: #38CFFF;
+	height: auto;
+}
+
+.footer {
+	padding-top: 110px;
+	padding-bottom: 20px;
+}
+
+.footer
+.container
+.row
+a {
+	color: $accent;
+	font-weight: bold;
+	text-decoration: none;
+	background: $white;
+}
+
+.footer
+.container
+.row
+a:hover {
+	color: $white;
+	background: $accent;
+}
+
+.topic {
+	width: 30px;
+	height: 30px;
+	margin-right: 32px;
+	border-radius: 50%;
+	background: $primary;
+	color: $text;
+	padding: 20px;
+	font-weight: bold;
+	font-size: 2.3em;
+	line-height: 30px;
+	text-align: center;
+	display: inline-block;
+}
